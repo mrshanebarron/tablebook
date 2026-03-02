@@ -15,9 +15,9 @@
             --darker: #0f0f0f;
             --warm: #2a2218;
         }
-        body { font-family: 'Georgia', 'Times New Roman', serif; background: var(--darker); color: #e8e0d4; }
-        .font-display { font-family: 'Georgia', serif; }
-        .font-sans { font-family: system-ui, -apple-system, sans-serif; }
+        body { font-family: 'Lora', 'Georgia', serif; background: var(--darker); color: #e8e0d4; }
+        .font-display { font-family: 'Lora', 'Georgia', serif; }
+        .font-sans { font-family: 'Public Sans', system-ui, sans-serif; }
         .text-gold { color: var(--gold); }
         .bg-gold { background-color: var(--gold); }
         .border-gold { border-color: var(--gold); }
@@ -32,7 +32,7 @@
             text-transform: uppercase;
             letter-spacing: 0.1em;
             font-size: 0.8rem;
-            font-family: system-ui, sans-serif;
+            font-family: 'Public Sans', system-ui, sans-serif;
         }
         .btn-gold:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(201, 168, 76, 0.3); }
         .card {
@@ -55,7 +55,7 @@
             color: var(--gold);
             padding: 0.5rem 1rem;
             border-radius: 0.25rem;
-            font-family: system-ui, sans-serif;
+            font-family: 'Public Sans', system-ui, sans-serif;
             font-size: 0.85rem;
             cursor: pointer;
             transition: all 0.2s;
@@ -67,7 +67,7 @@
             color: #e8e0d4;
             padding: 0.65rem 1rem;
             border-radius: 0.25rem;
-            font-family: system-ui, sans-serif;
+            font-family: 'Public Sans', system-ui, sans-serif;
             width: 100%;
         }
         input:focus, select:focus, textarea:focus {
@@ -75,7 +75,7 @@
             border-color: var(--gold);
             box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.15);
         }
-        label { font-family: system-ui, sans-serif; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(232,224,212,0.6); margin-bottom: 0.35rem; display: block; }
+        label { font-family: 'Public Sans', system-ui, sans-serif; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(232,224,212,0.6); margin-bottom: 0.35rem; display: block; }
     </style>
 </head>
 <body class="min-h-screen" x-data>
