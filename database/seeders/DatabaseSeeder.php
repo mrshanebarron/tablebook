@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
     {
         $admin = User::create([
             'name' => 'Admin',
-            'email' => 'admin@tablebook.test',
+            'email' => 'admin@tablebook.com',
             'password' => bcrypt('TableBook!Demo2026'),
         ]);
 
